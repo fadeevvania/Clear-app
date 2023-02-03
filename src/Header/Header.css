@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+}
+.Header{
+    width: 100%;   
+    top: 0;
+    box-shadow: 0px 5.69882px 9.49804px rgba(19, 40, 29, 0.098);
+    z-index: 2;
+}
+.HeaderContainer{
+    display: flex;
+}
+.HeaderLeft,.HeaderRight{
+    width: 50%;
+}
+
+ul{
+    list-style-type: none;
+    display: flex;
+    color: black;
+    padding: 10px;
+}
+.MenuListR{
+    display: flex;
+    justify-content: space-around;
+    
+}
+@media (max-width: 767px) {
+    .HeaderContainer{
+        display: block;
+    }
+    .HeaderLeft,.HeaderRight{
+        width: 100%;
+    }
+    .MenuListR,.MenuList{
+        display: block;
+        text-align: center;
+        padding: 0;
+        
+    }
+
+    li{
+        padding: 5px;
+    }
+    
+}

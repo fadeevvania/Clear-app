@@ -1,0 +1,16 @@
+.Footer{
+    background-color: bisque;
+    width: 100%;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    height: 50px;
+    width: 100%;
+    
+}
+p{
+display: flex;
+justify-content: space-around;
+height: 100%;
+align-items: center;
+}
