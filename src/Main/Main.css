@@ -1,0 +1,9 @@
+.Main{
+    background-color: red;
+    margin-bottom: 50px;
+    display: flex;
+}
+.MainL{
+    width: 60%;
+    height: 100%;
+}
